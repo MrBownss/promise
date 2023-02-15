@@ -20,9 +20,8 @@
     <!-- navbar search -->
     <nav class="navbar" style="background-color: #858d95">
       <div class="container-fluid justify-content-center">
-        <form class="d-flex">
-          <input class="form-control form-control-sm me-2" type="search" placeholder="Search News..." aria-label="Search" />
-          <button class="btn btn-outline-light btn-sm bg-secondary" type="submit">Search</button>
+        <form id="searchFrom" class="d-flex search">
+          <input id="input" onkeyup="searchNews()" class="form-control form-control-sm me-2" type="search" placeholder="Search News..." aria-label="Search" />
         </form>
       </div>
     </nav>
@@ -32,14 +31,7 @@
     <div class="container">
       <div class="row" id="card">
         <div class="col-sm-12 col-m-6 col-l-3 col-12">
-          <!-- <div class="card mt-3" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div> -->
+          
         </div>
       </div>
     </div>
